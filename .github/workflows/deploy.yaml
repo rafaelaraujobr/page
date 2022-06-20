@@ -1,11 +1,7 @@
 // .github/workflows/deploy.yaml
 
-name: deploy
-
-on:
-  push:
-    branches:
-      - main
+name: deploy to gh-pages
+on: [push]
 
 jobs:
   deploy:
