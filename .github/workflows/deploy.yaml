@@ -2,7 +2,10 @@
 
 name: deploy
 
-on: [push]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   deploy:
@@ -15,7 +18,7 @@ jobs:
       - name: setup git auth
         env:
           email: rflaraujodev@gmail.com
-          username: rafaelaraujobr
+          username: rafaelaraujo
           access_token: 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
         run: |
           git config --global credential.helper store
