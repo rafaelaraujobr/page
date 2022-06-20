@@ -14,9 +14,9 @@ jobs:
           node-version: '12'
       - name: setup git auth
         env:
-          email: 'rflaraujodev@gmail.com'
-          username: 'rafaelaraujobr'
-          access_token: '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'
+          email: rflaraujodev@gmail.com
+          username: rafaelaraujobr
+          access_token: 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
         run: |
           git config --global credential.helper store
           echo "https://${access_token}:x-oauth-basic@github.com" > ~/.git-credentials
