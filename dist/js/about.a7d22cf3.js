@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkrafaelaraujodev_github_io"]=self["webpackChunkrafaelaraujodev_github_io"]||[]).push([[443],{7381:function(a,u,e){e.r(u),e.d(u,{default:function(){return l}});var n=e(3396);const r={class:"about"},t=(0,n._)("h1",null,"This is an about page",-1),i=[t];function o(a,u){return(0,n.wg)(),(0,n.iD)("div",r,i)}var s=e(89);const c={},f=(0,s.Z)(c,[["render",o]]);var l=f}}]);
+//# sourceMappingURL=about.a7d22cf3.js.map
