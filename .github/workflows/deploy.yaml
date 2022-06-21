@@ -17,7 +17,7 @@ jobs:
         env:
           email: 'rflaraujodev@gmail.com'
           username: 'rafaelaraujo'
-          access_token: ${{ secrets.GITHUB_TOKEN }}
+          access_token: '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'
         run: |
           git config --global credential.helper store
           echo "https://${access_token}:x-oauth-basic@github.com" > ~/.git-credentials
@@ -31,4 +31,4 @@ jobs:
           git init
           git add -A
           git commit -m "🚀 Deploy id ${GITHUB_RUN_ID}"
-          git push -f "https://github.com/${GITHUB_REPOSITORY}.git" main:gh-pages
+          git push -f git@github.com:rafaelaraujobr/rafaelaraujobr.github.io.git main:gh-pages
